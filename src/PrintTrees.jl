@@ -2,6 +2,8 @@ module PrintTrees
 
 using AbstractTrees, InteractiveUtils
 
+export print_tree
+
 # DataType
 function AbstractTrees.children(t::DataType)
     t === Function ? Vector{Type}() : filter!(x -> x !== Any,subtypes(t))
