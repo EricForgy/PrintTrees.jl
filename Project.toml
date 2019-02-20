@@ -2,3 +2,7 @@ name = "PrintTrees"
 uuid = "f430e590-3503-11e9-1d69-ff423072f7f9"
 authors = ["Eric Forgy <Eric.Forgy@coherentasia.com>"]
 version = "0.1.0"
+
+[deps]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
