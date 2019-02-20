@@ -1,6 +1,6 @@
 # PrintTrees.jl
 
-Use [AbstracTrees.jl]() to print various standard Julia types.
+Use [AbstracTrees.jl](https://github.com/Keno/AbstractTrees.jl) to print various standard Julia types.
 
 Currently just supports `DataType` and `Dict`:
 
